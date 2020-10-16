@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Random LoL</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but site doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div class="main">
+      <div id="photo" class="photo"></div>
+      <!-- <h1>Kayn</h1> -->
+      <div class="roles">
+          <div onclick="setRole('top')" id="top" class="role top selected"></div>
+          <div onclick="setRole('jungle')" id="jungle" class="role jungle"></div>
+          <div onclick="setRole('mid')" id="mid" class="role mid"></div>
+          <div onclick="setRole('bot')" id="bot" class="role bot"></div>
+          <div onclick="setRole('sup')" id="sup" class="role sup"></div>
+      </div>
+      <button onclick="chooseChemp()" type="button" name="random">Random!</button>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script src="index.js"></script>
+</html>
